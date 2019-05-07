@@ -1,6 +1,10 @@
-# boto3-cloudformation
-Cloudformation operations like Create,Update,Delete using boto3
+## boto3-cloudformation
 
-Usage:
+Perform operations on a CFT like Create,update and Delete Stacks
 
- python3 cft_deployment.py -p cf_templates/cft_props.json -e test
+Takes a parmater file(refer sample here) as input and performs operations like create,update and deletion of stacks based on the current stack status.
+
+## Sample Execution :
+
+```
+python3 cft_operations.py -p parameters.json -e test-account
