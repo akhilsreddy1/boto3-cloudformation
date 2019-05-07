@@ -7,4 +7,4 @@ Takes a parmater file(refer sample here) as input and performs operations like c
 ## Sample Execution :
 
 ```
-python3 cft_operations.py -p parameters.json -e test-account
+python3 cft_deployment.py -p parameters.json -e test-account
