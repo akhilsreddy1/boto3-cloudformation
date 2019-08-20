@@ -4,11 +4,11 @@ Perform operations on a CFT like Create,update and Delete Stacks
 
 Takes a parmater file(refer sample here) as input and performs operations like create,update and deletion of stacks based on the current stack status.
 
-`` Creates if stack does not exists
+- `Creates if stack does not exists`
 
-`` Updates the stack if stack already exists
+- `Updates the stack if stack already exists`
 
-`` Deletes the stack if it cannot be updated / created 
+- `Deletes the stack if it cannot be updated / created`
 
 
 ## Sample Execution :
