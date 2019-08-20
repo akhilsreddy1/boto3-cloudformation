@@ -1,0 +1,37 @@
+{
+	"RegionId": "us-east-1",
+	"StackName": "example",
+	"Role_Session_Name": "sample-role",
+	"Environment": {
+		"dev": {
+			"TemplateUrl": "https://s3.amazonaws.com/**",
+			"Role_Arn": "arn:aws:iam::**",
+			"Parameters": []
+		},
+		"stg": {
+			"TemplateUrl": "https://s3.amazonaws.com/**",
+			"Role_Arn": "arn:aws:iam::**",
+			"Parameters": []
+		} 
+		}
+
+	},
+	"Parameters": [{
+		"ParameterKey": "Environment",
+		"ParameterValue": " "
+	},
+	{
+		"ParameterKey": "Owner",
+		"ParameterValue": "abc"
+	}
+],
+	"Tags": [ 
+		{
+			"Key": "business_unit",
+			"Value": ""
+		},
+		{
+			"Key": "app",
+			"Value": ""
+		}]
+}
